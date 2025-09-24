@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>TIENDA ROBOT</title>
+        <link rel="icon" type="image/jpg" href="BatmanLogo.webp">
+        <style>
+         /*MENU SUPERIOR*/
+           nav{
+            background: #222;
+            padding: 10px 0;
+           }
+           nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+
+           }
+           nav ul li{
+            margin: 0 15px;
+           }
+           nav ul li a{
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+           }
+           nav ul li a:hover{
+            color: #ff0000;
+           }
+           .contenedor{
+              background-color: gray;
+              display: flex;
+              flex-direction: column;
+              flex-wrap: wrap;
+              justify-content: space-around;
+           }
+           .titulo, .imagen{
+               text-align: center;
+               flex-basis: 100px;
+               flex-grow: 1;
+           }
+           .imagen img{
+
+              height: auto;
+              border-radius: 15px;
+              box-shadow: 0px 4px 10px rgba(0,0,0.3) ;
+              max-width: 100%;
+              height: auto;
+           }
+           footer{
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+            font-size: 14px;
+           }
+       </style>
+   </head>
+   <body>
+       <!--MENU DE NAVEGACION--->
+       <nav>
+           <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Productos</a></li>
+              <li><a href="#">Ofertas</a></li>
+              <li><a href="#">Contacto</a></li>
+           </ul>
+
+       </nav>
+       <div class="contenedor">
+           <div class="titulo">
+               <h1>Bienvenidos a la Tienda SuperRobot</h1>
+           </div>
+           <div class="imagen">
+               <img src="imagenes/Robot.webp">
+           </div>
+           <div class="titulo">
+               <h2>Descubre el juguete mas emocionante del año</h2>
+           </div>
+       </div>
+       <footer>
+        @2025 SuperRobot | derechos de autor
+       </footer>
+   </body>
+</html>
